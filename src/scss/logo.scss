@@ -1,0 +1,9 @@
+.logo {
+  display: block;
+  width: 11.5625rem;
+  height: 1.375rem;
+
+  &--header{
+    margin: 3.9375rem $page-padding 0 $page-padding;
+  }
+}

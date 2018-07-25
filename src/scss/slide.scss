@@ -1,0 +1,63 @@
+.slide{
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  &__content{
+    position: absolute;
+    z-index: 10;
+    margin: 4.5rem 0 0 $page-padding;
+    max-width: 28.625rem;
+
+    &--promo{
+        margin-top: 0;
+        max-width: 20rem;
+    }
+  }
+  &__tag{
+    color: $color-green;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    &--promo{
+        color: $color-blue;
+    }
+  }
+  &__title{
+    margin: 0;
+    font-size: 3.625rem;
+    font-weight: 100;
+    line-height: 2.6875rem;
+    letter-spacing: -0.0625rem;
+    margin-top: 1.375rem;
+    text-transform: uppercase;
+
+    &--promo{
+      text-transform: none;
+      font-weight: 700;
+      font-size: 1.75rem;
+      line-height: 1.75rem;
+      margin-top: 1.125rem;
+    }
+  }
+  &__article{
+    margin: 2rem 0;
+    font-size: 0.84375rem;
+    font-weight: 400;
+    line-height: 1.1875rem;
+    letter-spacing: -1px;
+    color: $color-darkgrey;
+
+    & p{
+      margin: 0.125rem 0 0;
+    }
+
+    &--promo{
+      max-width: 24rem;
+    }
+  }
+  &__image{
+    width: 100%;
+  }
+}

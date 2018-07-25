@@ -1,0 +1,41 @@
+.slider{
+  position: relative;
+  width: 100%;
+  max-width: $page-max;
+  margin-bottom: $section-bottom;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink:0;
+
+  &__thumbs{
+    position: absolute;
+    width: 100%;
+    margin-top: -3.75rem;
+  }
+}
+
+.thumbs{
+  display: flex;
+  justify-content: center;
+
+  &__item{
+    display: block;
+    margin: 0.25rem 0.3125rem;
+    width: 2rem;
+    height: 2rem;
+    background: $color-black-op20;
+    border-radius: 50%;
+
+    &--active{
+      cursor: default;
+      margin: 0 0.3125rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      background: $color-black;
+    }
+
+    &:hover{
+      background: $color-black;
+    }
+  }
+}

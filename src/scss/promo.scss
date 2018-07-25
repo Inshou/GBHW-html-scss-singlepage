@@ -1,0 +1,17 @@
+.promo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink:0;
+    width: 100%;
+    max-width: $page-max; 
+    margin-bottom: $section-bottom;
+
+    &__item{
+        width: 100%;
+
+        @media (min-width: $tablet-width) {
+            width: 50%;
+        }
+    }
+}
