@@ -6,12 +6,16 @@
   &__content{
     position: absolute;
     z-index: 10;
-    margin: 4.5rem 0 0 $page-padding;
+    margin: 0 0 0 $page-padding;
     max-width: 28.625rem;
 
     &--promo{
         margin-top: 0;
         max-width: 20rem;
+    }
+
+    &--margin-top{
+      margin-top: 4.5rem;
     }
   }
   &__tag{
@@ -20,10 +24,20 @@
     font-weight: 700;
     text-transform: uppercase;
 
-    &--promo{
-        color: $color-blue;
+    &--deafult,
+    &--green{
+      color: $color-green;
+    }
+
+    &--blue{
+       color: $color-blue;
+    }
+
+    &--red{
+      color: $color-red;
     }
   }
+
   &__title{
     margin: 0;
     font-size: 3.625rem;
