@@ -35,6 +35,11 @@
     box-shadow: none;
   }
 
+  &--nopadding{
+    padding: 0;
+    line-height: 0;
+  }
+
   &--arrow{
     line-height: 0;
     padding: 0.875rem 1.075rem 0.875rem 1.175rem;
