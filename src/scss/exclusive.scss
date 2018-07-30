@@ -1,0 +1,33 @@
+.exclusive{
+    width: 100%;
+    max-width: $page-max;
+    margin-bottom: $section-bottom;
+    display: block;
+
+    &__content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        @media (min-width: $notebook-width) {
+            justify-content: space-between;
+        }
+        margin: 0 $page-padding;
+    }
+
+    &__item{
+        max-width: 570px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        margin-bottom: 1rem;
+
+        & .product-thumb{
+            margin-bottom: 1rem;
+
+            @media (min-width: $notebook-width) {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

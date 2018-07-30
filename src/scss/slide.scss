@@ -17,6 +17,12 @@
     &--margin-top{
       margin-top: 4.5rem;
     }
+
+    &--exclusive{
+      margin-top: 0;
+      margin-left: 2rem;
+      max-width: 20rem;
+    }
   }
   &__tag{
     color: $color-green;
@@ -54,6 +60,14 @@
       line-height: 1.75rem;
       margin-top: 1.125rem;
     }
+
+    &--exclusive{
+      text-transform: none;
+      font-weight: 700;
+      font-size: 1.75rem;
+      line-height: 1.75rem;
+      margin-top: 1.125rem;
+    }
   }
   &__article{
     margin: 2rem 0;
@@ -69,6 +83,11 @@
 
     &--promo{
       max-width: 24rem;
+    }
+
+    &--exclusive{
+      max-width: 24rem;
+      margin-top: 1.375rem;
     }
   }
   &__image{
