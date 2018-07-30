@@ -36,4 +36,14 @@
             display: flex;
         }
     }
+
+    & .product-thumb__image{
+        width: 270px;
+    }
+
+    &--trands{
+        & .product-thumb__image{
+            width: 370px;
+        }
+    }
 }

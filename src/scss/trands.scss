@@ -1,0 +1,30 @@
+.trands{
+    width: 100%;
+    max-width: $page-max;
+    margin-bottom: $section-bottom;
+    display: block;
+
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 $page-padding 4rem;
+    }
+
+    &__title{
+        font-size: 2rem;
+        line-height: 1.8rem;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    &__content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        @media (min-width: $notebook-width) {
+            justify-content: space-between;
+        }
+        margin: 0 $page-padding;
+    }
+}
