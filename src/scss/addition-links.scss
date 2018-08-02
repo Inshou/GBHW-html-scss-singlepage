@@ -1,0 +1,15 @@
+.addition-links{
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $color-darkgrey;
+
+    &__item{
+        color: $color-darkgrey;
+        text-decoration: none;
+
+        &:hover{
+            color: $color-black;
+        }
+    }
+}
