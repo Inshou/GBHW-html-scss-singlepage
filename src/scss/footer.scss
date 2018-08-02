@@ -1,0 +1,24 @@
+.footer{
+    width: 100%;
+    max-width: $page-max;
+    flex: 0;
+    background-color: $color-notwhite;
+  
+    &__row{
+      margin: 0 $page-padding 3.125rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    &__item{
+      max-width: 26rem;
+    }
+  
+    &__title{
+      font-size: 1.125rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: $color-darkgrey;
+    }
+  }

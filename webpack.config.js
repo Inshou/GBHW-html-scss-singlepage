@@ -23,7 +23,7 @@ const htmlPlugins = generateHtmlPlugins('./src/html/views');
 module.exports = {
   entry: [
     './src/js/index.js',
-    './src/scss/style.scss'
+    './src/scss/main.scss'
   ],
   output: {
     filename: './js/bundle.js'

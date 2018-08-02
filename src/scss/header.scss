@@ -1,0 +1,10 @@
+.header{
+    flex: 0;
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: $page-max;
+    z-index: 10;
+  }

@@ -31,9 +31,22 @@
     }
   }
 
-
   &--main{
     text-transform: uppercase;
     margin: 3.9375rem 9.8125rem 0 $page-padding;
+  }
+}
+
+.menu-bottom{
+  display: flex;
+  flex-direction: column;
+
+  &__content{
+    display: flex;
+  }
+
+  &__list{
+    display: flex;
+    flex-direction: column;   
   }
 }
