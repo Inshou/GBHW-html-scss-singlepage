@@ -1,0 +1,12 @@
+.social-icons{
+    font-size: 1.75rem;
+
+    &__link{
+        text-decoration: none;
+        color: $color-darkgrey;
+
+        &:hover{
+            color: $color-black;
+        }
+    }
+}
