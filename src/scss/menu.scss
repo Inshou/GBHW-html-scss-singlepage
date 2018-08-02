@@ -5,8 +5,17 @@
   text-align: right;
   display: flex;
   
+  &__show{
+    @media (min-width: $phone-width) {
+      display: none;
+    }
+  }
+
   &__list{
-    display: flex;
+    display: none;
+    @media (min-width: $phone-width) {
+      display: flex;
+    }
     flex-wrap: wrap;
     list-style: none;
     margin: 0;
@@ -33,7 +42,10 @@
 
   &--main{
     text-transform: uppercase;
-    margin: 3.9375rem 9.8125rem 0 $page-padding;
+    margin: 3.9375rem 2rem 0 $page-padding;
+    @media (min-width: $phone-width) {
+      margin: 3.9375rem 9.8125rem 0 $page-padding;
+    }
   }
 }
 

@@ -16,7 +16,12 @@
 
 .thumbs{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  right: 2rem;
+  @media (min-width: $phone-width) {
+    right: auto;
+    justify-content: center;
+  }
 
   &__item{
     display: block;
