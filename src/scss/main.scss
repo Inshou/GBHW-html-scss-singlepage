@@ -24,6 +24,8 @@ $color-blue: rgba(30, 136, 229, 1);
 $color-red: rgba(229, 57, 53, 1);
 $color-shadow: rgba(33, 33, 33, 0.35);
 
+$color-input-border: rgba(217, 222, 225, 1);
+
 /* Borders */
 $border-bold: 3px;
 $border: 1px;
@@ -41,6 +43,7 @@ $border: 1px;
 @import 'contacts.scss';
 @import 'menu-bottom.scss';
 @import 'subscribe.scss';
+@import 'copyrights.scss';
 
 /* Basic blocks */
 @import 'slide.scss'; 
@@ -52,6 +55,7 @@ $border: 1px;
 @import 'promo.scss';
 @import 'trands.scss';
 @import 'exclusive.scss';
+@import 'mobile-app.scss';
 
 /* Default body styles */
 html{

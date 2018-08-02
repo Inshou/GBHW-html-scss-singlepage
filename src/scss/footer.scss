@@ -1,6 +1,7 @@
 .footer{
     width: 100%;
     max-width: $page-max;
+    padding-top: $section-bottom;
     flex: 0;
     background-color: $color-notwhite;
   
@@ -8,6 +9,7 @@
       margin: 0 $page-padding 3.125rem;
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       justify-content: space-between;
     }
    
