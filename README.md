@@ -1,5 +1,3 @@
-GeekBrain Home Work 
+HTML + SCSS exapmle
 
-HTML/CSS 
-
-+ SCSS
+Specification: /specification/interior-home-page.psd
