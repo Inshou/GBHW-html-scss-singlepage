@@ -1,0 +1,21 @@
+.menu-bottom{
+    flex-basis: 26.375rem;
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item{
+        text-decoration: none;
+        color: $color-black;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        &:hover{
+            color: $color-darkgrey;
+        }
+    }
+}

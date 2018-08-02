@@ -38,11 +38,13 @@ $border: 1px;
 @import 'logo.scss'; 
 @import 'menu.scss'; 
 @import 'footer.scss';
+@import 'contacts.scss';
+@import 'menu-bottom.scss';
+@import 'subscribe.scss';
 
 /* Basic blocks */
 @import 'slide.scss'; 
 @import 'product.scss';
-@import 'contacts.scss';
 
 /* Complex blocks */
 @import 'slider.scss'; 
